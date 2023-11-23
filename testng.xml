@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CrossBrowserSuite">
+    <test name="CrossBrowserTest">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="CrossBrowserTest"/>
+        </classes>
+    </test>
+    <test name="CrossBrowserTest">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="CrossBrowserTest"/>
+        </classes>
+    </test>
+</suite>
